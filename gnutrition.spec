@@ -1,12 +1,13 @@
 Name:		gnutrition
 Summary:	A free nutrition analysis software
-Version:	0.31
-Release:	%mkrel 1
+Version:	0.32
+Release:	1
 Source0:	http://ftp.gnu.org/gnu/gnutrition/%{name}-%{version}.tar.gz
 Patch0:		gnutrition-0.31-mdv-fix-desktopfile-install-path.patch
 URL:		http://www.gnu.org/software/gnutrition/
 Group:		Sciences/Biology 
 License:	GPLv3
+BuildArch:	noarch
 BuildRequires:	pygtk2.0-devel
 BuildRequires:	python-mysql
 Requires:	gnome-python-desktop
@@ -30,9 +31,6 @@ It contains data on 81 nutrients for over 5,000 foods.
 %install
 %__rm -rf %{buildroot}
 %makeinstall
-
-%clean
-%__rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
