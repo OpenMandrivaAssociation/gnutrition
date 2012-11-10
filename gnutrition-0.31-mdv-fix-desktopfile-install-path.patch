@@ -1,0 +1,15 @@
+Index: Makefile.in
+===================================================================
+--- Makefile.in
++++ Makefile.in	2010-06-30 09:27:00.858926271 -0300
+@@ -42,8 +42,8 @@
+ 	done
+ 	mkdir -p ${bindir}
+ 	${INSTALL} run-gnutrition.py ${bindir}/gnutrition
+-	mkdir -p ${prefix}/gnome/apps/Applications/
+-	${INSTALL} -m 644 gnutrition.desktop ${prefix}/gnome/apps/Applications/
++	mkdir -p ${datadir}/gnome/apps/Applications/
++	${INSTALL} -m 644 gnutrition.desktop ${datadir}/gnome/apps/Applications/
+ 
+ mkinstalldirs:
+ 	mkdir -p ${bindir}
