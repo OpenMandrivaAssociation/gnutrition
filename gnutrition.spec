@@ -1,7 +1,7 @@
 Summary:	A free nutrition analysis software
 Name:		gnutrition
 Version:	0.31
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Sciences/Biology
 Url:		http://www.gnu.org/software/gnutrition/
