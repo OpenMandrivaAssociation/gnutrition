@@ -4,7 +4,7 @@ Version:	0.31
 Release:	3
 License:	GPLv3+
 Group:		Sciences/Biology
-Url:		http://www.gnu.org/software/gnutrition/
+Url:		https://www.gnu.org/software/gnutrition/
 Source0:	http://ftp.gnu.org/gnu/gnutrition/%{name}-%{version}.tar.gz
 Patch0:		gnutrition-0.31-mdv-fix-desktopfile-install-path.patch
 BuildRequires:	python-mysql
