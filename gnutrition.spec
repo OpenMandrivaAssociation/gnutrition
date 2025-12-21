@@ -7,6 +7,11 @@ Group:		Sciences/Biology
 Url:		https://www.gnu.org/software/gnutrition/
 Source0:	http://ftp.gnu.org/gnu/gnutrition/%{name}-%{version}.tar.gz
 Patch0:		gnutrition-0.31-mdv-fix-desktopfile-install-path.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	python-mysql
 BuildRequires:	pkgconfig(pygtk-2.0)
 Requires:	gnome-python-desktop
